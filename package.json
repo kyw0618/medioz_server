@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/kyw0618/node.git"
+    "url": "git+https://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@github.com/kyw0618/mdeioz_server.git"
   },
   "bugs": {
-    "url": "https://github.com/kyw0618/node/issues"
+    "url": "https://github.com/kyw0618/mdeioz_server/issues"
   },
-  "homepage": "https://github.com/kyw0618/node#readme"
+  "homepage": "https://github.com/kyw0618/mdeioz_server#readme"
 }
