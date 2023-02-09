@@ -44,7 +44,12 @@ export async function singup(req, res) {
   const refreshToken = createRefeshJwt(userid);
   
   await authRepository.saveToken(userid, refreshToken);
-  res.status(201).json({"status": "201", "Accesstoken": accessToken, userId: userid});
+  res.status(201).json({
+    "status": "201", 
+    "Accesstoken": accessToken, 
+    "RefreshToken" : refreshToken,
+    userId: userid
+  });
 }
 
 export async function getProfileData(req, res) {
