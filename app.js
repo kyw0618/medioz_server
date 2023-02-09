@@ -2,6 +2,7 @@ import express from 'express'
 import morgan from 'morgan';
 import { connectDB } from './db/db.js';
 import { config } from './config.js';
+
 import appRouter from './router/app.js';
 import userRouter from './router/auth.js';
 import obituaryRouter from './router/datalist.js';
